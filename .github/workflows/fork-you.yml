@@ -1,0 +1,7 @@
+name: Fork you!
+on: [fork]
+jobs:
+  Fork-you-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Was forked by ${{ github.actor }}."
